@@ -20,6 +20,8 @@ npm install or yarn install
 ```
 
 ## Steps for start server
+* Run the next command: 
+
 ```bash
 npm run start
 ```
@@ -29,8 +31,8 @@ Open [http://localhost:3000/calculator](http://localhost:3000/calculator) and ta
 ```bash
 GET http://localhost:3000/calculator // get a greeting message
 POST http://localhost:3000/calculator // process math expression
+GET http://localhost:3000/docs // api docs
 ```
-
 ## Steps for use calculator
 * Send a POST request to:
 ```bash
@@ -43,8 +45,9 @@ http://localhost:3000/calculator
 }
 ```
 Equation parameter must be a String.
+Api docs: [http://localhost:3000/docs](http://localhost:3000/docs)
 
-## Steps for run test
+### Test
 Project has some tests case, if you want to test it, run the following command:
 
 ```bash
