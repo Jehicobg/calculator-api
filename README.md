@@ -8,11 +8,11 @@ Rest API for calculate math expression without external package or JS function.
 * Git
 
 ## Common setup
-Clone the repo and install the dependencies.
+Clone the repository and install the dependencies.
 
 ```bash
 git clone https://github.com/Jehicobg/calculator-api.git
-cd 
+cd calculator-api
 ```
 
 ```bash
@@ -34,7 +34,7 @@ POST http://localhost:3000/calculator // process math expression
 ## Steps for use calculator
 * Send a POST request to:
 ```bash
-POST http://localhost:3000/calculator
+http://localhost:3000/calculator
 ```
 * with the following json body:
 ```bash
