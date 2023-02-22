@@ -1,7 +1,7 @@
 const specialCharacter = /[\%\^\@\$\#\&]/g;
 
 export function processEquation(equation: string): number {
-  let match = equation.match(/\*|\/|\+|\-|\^/gims) || [];
+  let match = equation.match(/\*|\/|\+|\-/gims) || [];
   const idxWrongChar = equation.search(specialCharacter);
   if (idxWrongChar !== -1)
     throw new TypeError(`Error in character ${equation[idxWrongChar]}`);

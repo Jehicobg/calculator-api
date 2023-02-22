@@ -1,10 +1,10 @@
 # Calculator REST API
 
 ### Description
-Endpoint for calculate math expression without external package or JS function.
+Rest API for calculate math expression without external package or JS function.
 
 ## Requirements
-* Node v16 or latest
+* Node v16 or latest.
 * Git
 
 ## Common setup
