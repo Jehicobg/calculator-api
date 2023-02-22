@@ -39,7 +39,7 @@ POST http://localhost:3000/calculator
 * with the following json body:
 ```bash
 {
-    "equation": "some equation" // example: 10*(2+5)*10
+    "equation": "some equation" // example: "10*(2+5)*10"
 }
 ```
 Equation parameter must be a String.
@@ -50,3 +50,9 @@ Project has some tests case, if you want to test it, run the following command:
 ```bash
 npm run test
 ```
+
+### Limitations
+* The only term separator will be the ().
+
+### License
+[MIT licensed](./LICENSE).
