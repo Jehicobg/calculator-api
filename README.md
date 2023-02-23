@@ -20,7 +20,7 @@ npm install or yarn install
 ```
 
 ## Steps for start server
-*The project use Typescript, so you first need to build the app, with the following command:
+* The project use Typescript, so you first need to build the app, with the following command:
 
 ```bash
 npm run build
