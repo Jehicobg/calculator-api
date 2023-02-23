@@ -50,7 +50,7 @@ router.get("/", greetings);
  *                          equation: 10*(2+5)*10   
  *      responses:
  *          200:
- *              description: result
+ *              description: Result from Api
  *              content:
  *                  text/plain:
  *                      schema:

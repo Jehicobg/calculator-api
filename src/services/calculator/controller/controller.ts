@@ -5,7 +5,7 @@ const calculate = (req: Request, res: Response) => {
   try {
     const { equation } = req.body;
     const equationResolved = processEquation(equation);
-    res.status(200).send(equationResolved.toString());
+    res.status(200).send(equationResolved);
   } catch (error) {
     res.status(400).send(`Wrong Equation, ${error}`);
   }
