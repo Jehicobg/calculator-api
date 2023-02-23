@@ -20,7 +20,12 @@ npm install or yarn install
 ```
 
 ## Steps for start server
-* Run the next command: 
+*The project use Typescript, so you first need to build the app, with the following command:
+
+```bash
+npm run build
+```
+* And then, run the next command for start the server: 
 
 ```bash
 npm run start
@@ -48,7 +53,7 @@ Equation parameter must be a String.
 Api docs: [http://localhost:3000/docs](http://localhost:3000/docs)
 
 ### Test
-Project has some tests case, if you want to test it, run the following command:
+The project has some tests case, if you want to test it, run the following command:
 
 ```bash
 npm run test
